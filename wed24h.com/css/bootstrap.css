@@ -1,0 +1,131 @@
+.container
+{
+	width: 1000px;
+	margin: auto;
+}
+.first{
+background-color:#78b43d ;
+}
+.nav {	
+	display: flex;
+	justify-content: space-between;
+}
+.submenu{	
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+.submenu li a{
+	text-decoration: none;
+	color: #fff;
+}
+.submenu li{
+padding: 5px;
+}
+.nav li{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.nav li a{
+	display: flex;
+    font-size: 73%;
+}
+
+.fas{
+	color: #fff;
+	margin-bottom: 14px;
+}
+.DM{
+	border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+/*phần 1 bảng lưới*/
+.nav .DM1{
+  display: none;
+    position: absolute;
+    width: 200px;
+    background-color: #aad862;
+    padding: 0px 0px;
+    margin-top: 47px;
+    margin-left: -130px;
+}
+.DM:hover{
+	color: #fff;
+	background-color: lawngreen;
+	padding: 5px;
+}
+.nav li:hover>.DM1{
+    display: block;
+}
+.nav li a{
+    text-transform: uppercase;
+}
+.DM1 li{
+	list-style: none;
+}
+.DM1 li a{
+	color: black;
+}
+.fa {
+    display: block;
+    text-align: center;
+}
+.DM1 li{
+	border-bottom:  1px solid black;
+	padding:4%;
+}/*phan tin tuc */
+.DM1 .Tintuc1{
+  	display: none;
+    position: absolute;
+    width: 200px;
+    background-color: #78b43d;
+    padding: 0px 0px;
+    margin-top: -8px;
+    margin-left: 192.79px;
+}
+.DM1 li:hover{
+	color: #fff;
+	background-color: lawngreen;
+}
+.DM1 li:hover>.Tintuc1
+{
+    display: block;
+}
+.oto li{	
+	border-bottom: none;
+}
+/**/
+/*.LVN{
+	border-bottom: none;
+}*/
+.fa-search{
+	color: #fff;
+	margin-top: 18px;
+}
+.box{
+	padding-left: 10px;
+    padding-right: 10px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+.box input{
+	display: none;
+	position: absolute;
+}
+.box:hover{
+	background-color: red;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+.box:hover>.search1
+{
+    display: block;
+}
+.box input{
+	margin-left: -790px;
+    margin-top: -27px;
+    padding-right:605px;
+    padding-bottom: 21px;
+/*đóng phần 1*/
